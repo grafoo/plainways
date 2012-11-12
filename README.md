@@ -1,5 +1,5 @@
 plainways - find your own way
-=============================
+==============================
 
 Plainways is a web platform which
 provides navigation map for the people using wheelchairs.
