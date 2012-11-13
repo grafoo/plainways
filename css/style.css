@@ -3,6 +3,82 @@ CUSTOM STYLE SHEET FOR PLAINWAYS PROJECT
 ========================================
 */
 
+body{
+	background: url("../images/back.png") repeat;
+}
+
+.container#page{
+	margin-top: 20px;
+	box-shadow: 0px 4px 6px #CCC;
+	border-radius: 10px 10px 0px 0px;
+}
+
 #header{
-	
+	background: #e2f6ff;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#logo{
+	padding: 10px;
+}
+
+/* menu.... */
+
+#mainmenu ul{
+	margin: 0;
+	background: #FFF;
+}
+
+#mainmenu ul li{
+		display: inline-block;
+		border-bottom: 3px solid #FFF;
+		padding: 0;
+}
+
+#mainmenu ul li:hover{
+		display: inline-block;
+		border-bottom: 3px solid #e01a1a;
+		cursor: pointer;
+}
+
+#mainmenu ul li a, #mainmenu ul li a:hover, #mainmenu ul li a:visited{
+	color: #000;
+	text-decoration: none;
+	padding: 10px 10px 7px 10px;
+	display: block;
+}
+
+/* end of menu */
+
+.container#pageContent{
+	background: #d9eef9;
+}
+
+#pageContentContainer{
+	padding: 20px;
+}
+
+#footer{
+	background: #EEE;
+	padding: 50px;
+	font-size: 12px;
+	border-top: 1px solid #E0E0E0;
+}
+
+#footer a img{
+	float: left;
+	margin: 4px 10px 10px 0px;
+}
+
+/* bootstrap overide */
+
+.row{
+	margin-left: 0px;
+}
+
+.breadcrumbs{
+	padding: 10px;
+	font-weight: bold;
+	background:#e2f6ff;
+	font-size: 12px;
 }
