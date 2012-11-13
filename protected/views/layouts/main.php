@@ -24,7 +24,7 @@
 <div class="container" id="page">
 
 	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo.png" /></div>
 	</div><!-- header -->
 
 	<div id="mainmenu">
@@ -44,15 +44,17 @@
 		)); ?><!-- breadcrumbs -->
 	<?php endif?>
 
-	<?php echo $content; ?>
+	<div class="container" id="pageContent">
+		<div id="pageContentContainer">
+			<?php echo $content; ?>
 
-	<div class="clear"></div>
+			<div class="clear"></div>
+		</div>
 
-	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
-	</div><!-- footer -->
+		<div id="footer">
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Plainways</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="www.plainways.org" property="cc:attributionName" rel="cc:attributionURL">www.plainways.org</a><br/> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>
+		</div><!-- footer -->
+	</div>
 
 </div><!-- page -->
 
