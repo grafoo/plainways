@@ -16,12 +16,6 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'id'); ?>
-		<?php echo $form->textField($model,'id'); ?>
-		<?php echo $form->error($model,'id'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'area'); ?>
 		<?php echo $form->textArea($model,'area',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'area'); ?>

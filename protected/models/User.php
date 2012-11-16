@@ -10,6 +10,9 @@
  * @property string $email
  * @property string $real_name
  * @property string $address
+ *
+ * The followings are the available model relations:
+ * @property TblObstacleCategory[] $tblObstacleCategories
  */
 class User extends CActiveRecord
 {
@@ -39,8 +42,7 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, username, password, email', 'required'),
-			array('id', 'numerical', 'integerOnly'=>true),
+			array('username, password, email', 'required'),
 			array('username, password, email, real_name, address', 'length', 'max'=>45),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -56,6 +58,7 @@ class User extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'tblObstacleCategories' => array(self::MANY_MANY, 'TblObstacleCategory', 'tbl_user_obstacle_category(tbl_user_id, tbl_obstacle_category_id)'),
 		);
 	}
 

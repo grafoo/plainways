@@ -41,8 +41,8 @@ class Obstacle extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, area, tbl_obstacle_category_id', 'required'),
-			array('id, tbl_obstacle_category_id', 'numerical', 'integerOnly'=>true),
+			array('area, tbl_obstacle_category_id', 'required'),
+			array('tbl_obstacle_category_id', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>45),
 			array('description', 'safe'),
 			// The following rule is used by search().
