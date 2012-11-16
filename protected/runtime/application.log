@@ -14,3 +14,777 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/~stefan/plainways/index.php?r=obstaclecategory
 ---
+2012/11/16 18:25:49 [error] [php] Missing argument 1 for UserController::loadModel(), called in /home/stefan/public_html/plainways/protected/controllers/UserController.php on line 59 and defined (/home/stefan/public_html/plainways/protected/controllers/UserController.php:163)
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#1 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): UserController->runAction()
+#4 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/stefan/public_html/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): UserController->filterAccessControl()
+#7 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /home/stefan/public_html/yii/framework/web/CController.php(266): UserController->runActionWithFilters()
+#10 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): UserController->run()
+#11 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/stefan/public_html/plainways/index.php(13): CWebApplication->run()
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (163)
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (59)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 18:45:30 [error] [php] Missing argument 1 for UserController::loadModel(), called in /home/stefan/public_html/plainways/protected/controllers/UserController.php on line 58 and defined (/home/stefan/public_html/plainways/protected/controllers/UserController.php:163)
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#1 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): UserController->runAction()
+#4 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/stefan/public_html/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): UserController->filterAccessControl()
+#7 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /home/stefan/public_html/yii/framework/web/CController.php(266): UserController->runActionWithFilters()
+#10 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): UserController->run()
+#11 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/stefan/public_html/plainways/index.php(13): CWebApplication->run()
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (163)
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (58)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 18:45:47 [error] [php] Missing argument 1 for UserController::loadModel(), called in /home/stefan/public_html/plainways/protected/controllers/UserController.php on line 58 and defined (/home/stefan/public_html/plainways/protected/controllers/UserController.php:163)
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#1 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): UserController->runAction()
+#4 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/stefan/public_html/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): UserController->filterAccessControl()
+#7 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /home/stefan/public_html/yii/framework/web/CController.php(266): UserController->runActionWithFilters()
+#10 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): UserController->run()
+#11 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/stefan/public_html/plainways/index.php(13): CWebApplication->run()
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (163)
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (58)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 18:45:47 [error] [php] Missing argument 1 for UserController::loadModel(), called in /home/stefan/public_html/plainways/protected/controllers/UserController.php on line 58 and defined (/home/stefan/public_html/plainways/protected/controllers/UserController.php:163)
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#1 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): UserController->runAction()
+#4 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/stefan/public_html/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): UserController->filterAccessControl()
+#7 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /home/stefan/public_html/yii/framework/web/CController.php(266): UserController->runActionWithFilters()
+#10 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): UserController->run()
+#11 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/stefan/public_html/plainways/index.php(13): CWebApplication->run()
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (163)
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (58)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 18:45:48 [error] [php] Missing argument 1 for UserController::loadModel(), called in /home/stefan/public_html/plainways/protected/controllers/UserController.php on line 58 and defined (/home/stefan/public_html/plainways/protected/controllers/UserController.php:163)
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#1 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): UserController->runAction()
+#4 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/stefan/public_html/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): UserController->filterAccessControl()
+#7 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /home/stefan/public_html/yii/framework/web/CController.php(266): UserController->runActionWithFilters()
+#10 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): UserController->run()
+#11 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/stefan/public_html/plainways/index.php(13): CWebApplication->run()
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (163)
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (58)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 18:45:48 [error] [php] Missing argument 1 for UserController::loadModel(), called in /home/stefan/public_html/plainways/protected/controllers/UserController.php on line 58 and defined (/home/stefan/public_html/plainways/protected/controllers/UserController.php:163)
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#1 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): UserController->runAction()
+#4 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/stefan/public_html/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): UserController->filterAccessControl()
+#7 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /home/stefan/public_html/yii/framework/web/CController.php(266): UserController->runActionWithFilters()
+#10 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): UserController->run()
+#11 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/stefan/public_html/plainways/index.php(13): CWebApplication->run()
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (163)
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (58)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 18:45:48 [error] [php] Missing argument 1 for UserController::loadModel(), called in /home/stefan/public_html/plainways/protected/controllers/UserController.php on line 58 and defined (/home/stefan/public_html/plainways/protected/controllers/UserController.php:163)
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#1 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): UserController->runAction()
+#4 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/stefan/public_html/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): UserController->filterAccessControl()
+#7 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /home/stefan/public_html/yii/framework/web/CController.php(266): UserController->runActionWithFilters()
+#10 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): UserController->run()
+#11 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/stefan/public_html/plainways/index.php(13): CWebApplication->run()
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (163)
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (58)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 18:48:33 [error] [php] Missing argument 1 for UserController::loadModel(), called in /home/stefan/public_html/plainways/protected/controllers/UserController.php on line 58 and defined (/home/stefan/public_html/plainways/protected/controllers/UserController.php:163)
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs()
+#1 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#2 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): UserController->runAction()
+#4 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /home/stefan/public_html/yii/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#6 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): UserController->filterAccessControl()
+#7 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#8 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#9 /home/stefan/public_html/yii/framework/web/CController.php(266): UserController->runActionWithFilters()
+#10 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): UserController->run()
+#11 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /home/stefan/public_html/plainways/index.php(13): CWebApplication->run()
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (163)
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (58)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 18:51:06 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:51:06 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:51:08 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+---
+2012/11/16 18:51:09 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+---
+2012/11/16 18:51:10 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+---
+2012/11/16 18:51:12 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:51:20 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:53:26 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:53:27 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:53:27 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:53:27 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:53:28 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:53:29 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+---
+2012/11/16 18:53:37 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:54:12 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:54:12 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:54:13 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 18:54:13 [error] [exception.CException] exception 'CException' with message 'UserController and its behaviors do not have a method or closure named "getSomeProValue".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/plainways/protected/views/user/view.php(4): CComponent->__call('getSomeProValue', Array)
+#1 /home/stefan/public_html/plainways/protected/views/user/view.php(4): UserController->getSomeProValue()
+#2 /home/stefan/public_html/yii/framework/web/CBaseController.php(127): require('/home/stefan/pu...')
+#3 /home/stefan/public_html/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/home/stefan/pu...', Array, true)
+#4 /home/stefan/public_html/yii/framework/web/CController.php(870): CBaseController->renderFile('/home/stefan/pu...', Array, true)
+#5 /home/stefan/public_html/yii/framework/web/CController.php(783): CController->renderPartial('view', Array, true)
+#6 /home/stefan/public_html/plainways/protected/controllers/UserController.php(56): CController->render('view', Array)
+#7 [internal function]: UserController->actionView('1')
+#8 /home/stefan/public_html/yii/framework/web/actions/CAction.php(107): ReflectionMethod->invokeArgs(Object(UserController), Array)
+#9 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(48): CAction->runWithParamsInternal(Object(UserController), Object(ReflectionMethod), Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /home/stefan/public_html/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /home/stefan/public_html/yii/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /home/stefan/public_html/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /home/stefan/public_html/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /home/stefan/public_html/yii/framework/web/CController.php(292): CFilterChain->run()
+#17 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('view')
+#19 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('user/view')
+#20 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=user/view&id=1
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=user/admin
+---
+2012/11/16 20:19:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index?r=user".' in /home/stefan/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/CController.php(271): CController->missingAction('index?r=user')
+#1 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('index?r=user')
+#2 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/index?r=us...')
+#3 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=site/index?r=user
+---
+2012/11/16 20:19:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index?r=users".' in /home/stefan/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/CController.php(271): CController->missingAction('index?r=users')
+#1 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('index?r=users')
+#2 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/index?r=us...')
+#3 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=site/index?r=users
+---
+2012/11/16 20:19:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index?r=users".' in /home/stefan/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/CController.php(271): CController->missingAction('index?r=users')
+#1 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('index?r=users')
+#2 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/index?r=us...')
+#3 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=site/index?r=users
+---
+2012/11/16 20:19:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "indexr=user".' in /home/stefan/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/CController.php(271): CController->missingAction('indexr=user')
+#1 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('indexr=user')
+#2 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/indexr=use...')
+#3 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=site/indexr=user
+---
+2012/11/16 20:19:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index?r=user".' in /home/stefan/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/CController.php(271): CController->missingAction('index?r=user')
+#1 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('index?r=user')
+#2 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/index?r=us...')
+#3 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=site/index?r=user
+---
+2012/11/16 20:19:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index?r=users".' in /home/stefan/public_html/yii/framework/web/CController.php:484
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/CController.php(271): CController->missingAction('index?r=users')
+#1 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('index?r=users')
+#2 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/index?r=us...')
+#3 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=site/index?r=users
+---
+2012/11/16 20:19:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usre".' in /home/stefan/public_html/yii/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('usre')
+#1 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=usre
+---
+2012/11/16 20:20:07 [warning] [application] Failed to set unsafe attribute "password_repeat" of "User".
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (72)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 20:46:09 [error] [exception.CException] exception 'CException' with message 'User and its behaviors do not have a method or closure named "encrypt".' in /home/stefan/public_html/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/stefan/public_html/yii/framework/db/ar/CActiveRecord.php(226): CComponent->__call('encrypt', Array)
+#1 /home/stefan/public_html/plainways/protected/components/UserIdentity.php(44): CActiveRecord->__call('encrypt', Array)
+#2 /home/stefan/public_html/plainways/protected/components/UserIdentity.php(44): User->encrypt('stefan')
+#3 /home/stefan/public_html/plainways/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#4 /home/stefan/public_html/yii/framework/validators/CInlineValidator.php(43): LoginForm->authenticate('password', Array)
+#5 /home/stefan/public_html/yii/framework/validators/CValidator.php(214): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#6 /home/stefan/public_html/yii/framework/base/CModel.php(158): CValidator->validate(Object(LoginForm), NULL)
+#7 /home/stefan/public_html/plainways/protected/controllers/SiteController.php(94): CModel->validate()
+#8 /home/stefan/public_html/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#9 /home/stefan/public_html/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /home/stefan/public_html/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /home/stefan/public_html/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /home/stefan/public_html/yii/framework/web/CWebApplication.php(283): CController->run('login')
+#13 /home/stefan/public_html/yii/framework/web/CWebApplication.php(142): CWebApplication->runController('site/login')
+#14 /home/stefan/public_html/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /home/stefan/public_html/plainways/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/~stefan/plainways/index.php?r=site/login
+HTTP_REFERER=http://localhost/~stefan/plainways/index.php?r=site/login
+---
+2012/11/16 21:02:53 [warning] [application] Failed to set unsafe attribute "password_repeat" of "User".
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (72)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 21:03:07 [warning] [application] Failed to set unsafe attribute "password_repeat" of "User".
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (72)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 21:04:16 [warning] [application] Failed to set unsafe attribute "password_repeat" of "User".
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (72)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 21:04:21 [warning] [application] Failed to set unsafe attribute "password_repeat" of "User".
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (72)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 21:04:24 [warning] [application] Failed to set unsafe attribute "password_repeat" of "User".
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (72)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 21:05:20 [warning] [application] Failed to set unsafe attribute "password_repeat" of "User".
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (72)
+in /home/stefan/public_html/plainways/index.php (13)
+2012/11/16 21:05:31 [warning] [application] Failed to set unsafe attribute "password_repeat" of "User".
+in /home/stefan/public_html/plainways/protected/controllers/UserController.php (72)
+in /home/stefan/public_html/plainways/index.php (13)

@@ -16,6 +16,9 @@
  */
 class User extends CActiveRecord
 {
+    
+    public $password_repeat;
+    
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -44,9 +47,13 @@ class User extends CActiveRecord
 		return array(
 			array('username, password, email', 'required'),
 			array('username, password, email, real_name, address', 'length', 'max'=>45),
+                        array('username, email', 'unique'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, username, password, email, real_name, address', 'safe', 'on'=>'search'),
+                        array('email', 'email'),
+                        array('password','compare'),
+                        array('password','safe'),
 		);
 	}
 
@@ -99,4 +106,16 @@ class User extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+        
+        // one-way encryption on the password
+        
+//        protected function afterValidate()
+//        {
+//            parent::afterValidate();
+//            $this->password = $this->encrypt($this->password);
+//        }
+//        
+//        public function encrypt($value){
+//            return md5($value);
+//        }
 }
