@@ -2,7 +2,7 @@ plainways - find your own way
 =============================
 
 Plainways is a web platform which
-provides navigation map for the people using wheelchairs.  
+provides navigation map for people using wheelchairs.  
 
 Plainways is a crucial application for enhancement of the social fabric in a locality. The
 application is beneficial for the group of individuals whose mobility is restricted to wheel-
